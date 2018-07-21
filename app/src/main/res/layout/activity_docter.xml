@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codex_pc.mob_dco.DocterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/patient_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="2dp"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/blood_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="2dp"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/patient_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="2dp"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patient_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="2dp"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patient_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="2dp"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patient_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="2dp"
+                android:textColor="@color/QRCodeBlackColor"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/prescrtionD"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_marginTop="195dp">
+
+
+        </ListView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

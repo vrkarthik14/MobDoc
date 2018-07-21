@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:text="Symptom Checker"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/holo_purple"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="141dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:padding="8dp"
+            android:text="@string/in_this_module_anyone_can_simply_add_the_symptoms_and_based_on_their_entered_symptoms_a_set_of_proposed_symptoms_will_be_generated_if_you_are_is_finished_with_adding_the_symptoms_then_you_can_analyze_the_disease_pattern_based_on_the_information_you_have_provided_and_can_further_make_decisions_in_you_life_for_your_better_health"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor"
+
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:padding="8dp"
+            android:text="This module can be used by the doctors who have an account already, if not then you can apply for it through sharing your email id and qualifications. After signing in, doctor can start the diagnosis by scanning the QR code of the patient whom he want to diagnose.The QR code will generate the patient details  along with reports of the previous diagnosis undertaken. Based on the previous reports and the new symptoms the patient is having he can treat the patient."
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:padding="8dp"
+            android:text="Anyone who wants to be diagnosed can signup and a unique QR code will be generated.He/She can consult the doctor(only having an account) and show his QR code to the doctor for his previous information and based on that he/she can be diagnosed by the doctor and all his reports will be there on his profile."
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/bordershape"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/docto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="@color/QRCodeBlackColor"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/presdat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/QRCodeBlackColor" />
+
+        <TextView
+            android:id="@+id/symptas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textColor="@color/QRCodeBlackColor" />
+
+
+        <TextView
+            android:id="@+id/fver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="@color/QRCodeBlackColor" />
+
+
+        <TextView
+            android:id="@+id/bloodPresr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="@color/QRCodeBlackColor"
+            android:fontFamily="serif"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/otherinfor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="@color/QRCodeBlackColor"
+            android:fontFamily="serif"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/prescvtion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="@color/QRCodeBlackColor"
+            android:fontFamily="serif"
+            android:text="TextView" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bordershape"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/doctorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="@color/QRCodeBlackColor"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/presdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/QRCodeBlackColor" />
+
+        <TextView
+            android:id="@+id/symptoms_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/QRCodeWhiteColor"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textColor="@color/QRCodeBlackColor" />
+
+
+        <TextView
+            android:id="@+id/fev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="@color/QRCodeBlackColor" />
+
+
+        <TextView
+            android:id="@+id/bloodPre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="@color/QRCodeBlackColor"
+            android:fontFamily="serif"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/otherinf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="@color/QRCodeBlackColor"
+            android:fontFamily="serif"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/prescv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="@color/QRCodeBlackColor"
+            android:fontFamily="serif"
+            android:text="TextView" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

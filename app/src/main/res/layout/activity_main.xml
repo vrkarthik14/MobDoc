@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codex_pc.mob_dco.MainActivity">
+
+
+    <Button
+        android:id="@+id/doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/patient"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/doctor"
+        android:text="Doctors Nearby" />
+
+    <Button
+        android:id="@+id/patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/t1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="71dp"
+        android:layout_marginEnd="26dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/user"
+        android:visibility="invisible"
+        android:text="Patient LogIn" />
+
+    <Button
+        android:id="@+id/symptomasd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/doc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/standing_human_bod"
+        android:elevation="0dp"
+        android:text="Symptom checker" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="56dp"
+        android:fontFamily="@font/amita"
+        android:text="Mob"
+        android:textColor="@color/zxing_custom_viewfinder_laser"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="DOC"
+        android:textColor="@color/colorPrimary"
+        android:textSize="58sp" />
+
+    <ProgressBar
+        android:id="@+id/main_progressbaR"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t2"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

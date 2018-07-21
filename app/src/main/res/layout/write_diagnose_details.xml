@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/symptoms_problems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Symptoms and problems"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/fever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="fever in degree F"
+        android:inputType="text|numberDecimal" />
+
+    <EditText
+        android:id="@+id/BP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Blood Pressure"
+        android:inputType="number|date" />
+
+    <EditText
+        android:id="@+id/otehrInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter other extra information about disease  here"
+        android:inputType="textMultiLine" />
+
+
+    <EditText
+        android:id="@+id/Prescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursivef"
+        android:hint="Enter prescription here"
+        android:inputType="textMultiLine" />
+
+
+</LinearLayout>

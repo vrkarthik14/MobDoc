@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codex_pc.mob_dco.Exercise">
+
+    <EditText
+        android:id="@+id/inputexcise"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="40dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_toStartOf="@+id/enterExSpeechf"
+        android:ems="10"
+        android:hint="Enter exercise"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/inputexcise"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="43dp"
+        android:text="Check Calorie Spent" />
+
+    <ImageButton
+        android:id="@+id/enterExSpeechf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/inputexcise"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        app:srcCompat="@drawable/microphone" />
+
+    <Button
+        android:id="@+id/save_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Complete"
+        android:layout_alignBottom="@+id/Complete"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:enabled="false"
+        android:text="Save Exercise" />
+
+    <ListView
+        android:id="@+id/exerList"
+        android:layout_marginTop="270dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codex_pc.mob_dco.PateintDiagnosisDoctor">
+
+    <TextView
+        android:id="@+id/docWelcomeText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scanQr"
+        android:layout_alignStart="@+id/logo"
+        android:layout_marginBottom="125dp"
+        android:fontFamily="serif"
+        android:textAllCaps="false"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/scanQr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/button_custom"
+        android:text="scan Qr" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="37dp"
+        android:fontFamily="monospace"
+        android:text="mob doc"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

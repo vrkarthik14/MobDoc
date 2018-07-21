@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_docter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addDigo"
+        android:layout_width="63dp"
+        android:layout_height="62dp"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        app:backgroundTint="@color/zxing_status_text"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="right|bottom"
+        app:rippleColor="@color/colorAccent"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>
