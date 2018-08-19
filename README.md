@@ -5,7 +5,7 @@ It is android app where Doctor's diagnosis for patient's particular disease is d
 
 ## Technologies Used
 * Retrofit 
-* Swing(QR Code Generator)
+* Swing(QR Code Generator) Library
 * Firebase DB
 * API Medic API
 
