@@ -7,6 +7,7 @@ It is android app where Doctor's diagnosis for patient's particular disease is d
 * Retrofit 
 * Swing(QR Code Generator)
 * Firebase DB
+* API Medic API
 
 ## Features Avalaible 
 * Symptom checker: Get details of possible diseases you may have, which is decided by entered Symptoms. In case if entered disease require prompt immediate checkup by doctor it notifies the user by prompting nearest locations of hospitals.
