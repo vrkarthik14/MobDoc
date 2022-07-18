@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MobDoc-master.iml" filepath="$PROJECT_DIR$/MobDoc-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/MobDoc_again.iml" filepath="$PROJECT_DIR$/.idea/MobDoc_again.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MobDoc.iml" filepath="$PROJECT_DIR$/.idea/modules/MobDoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MobDoc.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MobDoc.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MobDoc.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MobDoc.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MobDoc.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MobDoc.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MobDoc.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MobDoc.app.unitTest.iml" />
     </modules>
   </component>
 </project>

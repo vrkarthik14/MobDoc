@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -119,7 +119,7 @@ public static final int RC_PHOTO_PICKER = 1;
                     uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                            final String downUrl = taskSnapshot.getDownloadUrl().toString();
+                            final String downUrl = taskSnapshot.getUploadSessionUri().toString();
                             Log.i("downUrl","Downloaded url");
 
                             final String name_content,password_content,email_content,gend;
